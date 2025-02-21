@@ -1,0 +1,79 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.main{
+	height:auto;
+	width:100%;
+	float:left;
+}
+.menu{
+	height:auto;
+	width:100%;
+	float:left;
+	position:sticky;
+	top:0px;
+	background-color:white;
+}
+.logo{
+	height:50px;
+	width:50px;
+}
+@media(max-width:667px){
+	.navcollapse{
+		position:absolute;
+		top:80px;
+		right:20px;
+	}
+}
+.slider_contain h4{
+	width:200px;
+	color:green;
+	background-color:#efeae7;
+}
+.slider_circle{
+	height:50px;
+	width:50px;
+	background-color:lightgray;
+}
+.slider_circle:hover{
+	background-color:green;
+}
+.slider_count{
+	height:200px;
+	/* box-shadow:; */
+	border-radius:20px;
+}
+@media(max-width:1100px){
+	.slider_count{
+		height:auto !important;
+		padding:10px;
+	}
+}
+
+.about_founder{
+	height:70px;
+	width:70px;
+}
+.about_img{
+	width:75%;
+	height:80%;
+}
+.about_card{
+	height:200px;
+	width:200px;
+	position:absolute;
+	top:-250px;
+}
+@media (max-width:667px){
+	.about_img{
+		width:100% !important;
+		height:auto;
+	}
+	.about_card{
+		position:static;
+		top:0px;
+		width:100%;
+		margin-top:30px;
+	}
+}
